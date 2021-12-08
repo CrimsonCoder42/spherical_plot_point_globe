@@ -1,5 +1,5 @@
 #AirMiles3D
-#Improved version by Bora Eryilmaz using "show() and "hide()" for displays
+
 library(shiny)
 library(shinyjs)
 library(shinydashboard)

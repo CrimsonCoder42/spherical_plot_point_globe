@@ -10,9 +10,7 @@ library("rgl")      #for 3D plotting
 source("jaxmat.R")
 
 #final version
-#"https://bamberg.shinyapps.io/AirMileTest/"
-#It is more conventional to put these style settings in a separate file in www
-#but this is a better location for experimenting.
+
 stylesheet <- tags$head(tags$style(HTML('
     .main-header .logo {
       font-family: "Georgia", Times, "Times New Roman", serif;
@@ -65,7 +63,7 @@ body <- dashboardBody(
 ui <- dashboardPage(header, sidebar, body)
 
 #Functions that implement the mathematics
-#This file must go into the same directory as app.R
+
 source("spherical.R")
 
 
